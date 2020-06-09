@@ -18,7 +18,7 @@ export default {
   data: () => ({
     routes: [
       { path: '/', name: 'Home' },
-      { path: '/about', name: 'About Me' },
+      { path: '/about', name: 'About' },
       { path: '/projects', name: 'Projects' }
     ]
   }),
@@ -38,12 +38,14 @@ nav {
   padding: 1rem;
   display: inline-flex;
   align-items: center;
+  justify-content: space-between;
   color: white;
   background-color: #35495e;
 }
 nav > ul {
   list-style: none;
   display: flex;
+  padding: 0;
 }
 .menu-item {
   text-decoration: none;

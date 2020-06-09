@@ -40,7 +40,7 @@ export default {
 
 <style>
 .container {
-  margin: 0 auto;
+  margin: 0 1rem;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -53,20 +53,25 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 3rem;
   color: #35495e;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
+  font-size: 1.5rem;
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
 
 .links {
-  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.links > a {
+  margin: 0 0.5rem 0.5rem 0;
 }
 </style>

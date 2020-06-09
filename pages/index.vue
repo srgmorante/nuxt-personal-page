@@ -29,6 +29,11 @@ import NavMenu from '~/components/NavMenu'
 export default {
   components: {
     NavMenu
+  },
+  head() {
+    return {
+      title: 'Welcome to Sergio Morante page'
+    }
   }
 }
 </script>
